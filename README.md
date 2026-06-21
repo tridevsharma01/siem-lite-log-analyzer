@@ -33,3 +33,7 @@ Built as the same proven architecture as a network IDS project: parser → detec
 
 ```bash
 pip install matplotlib
+python test_engine.py
+python generate_demo_logs.py
+python analyze_logs.py --windows sample_security_log.csv --linux sample_auth.log
+python dashboard.py
